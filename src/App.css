@@ -1,0 +1,24 @@
+body {
+  margin: none;
+  background-color: rgb(7, 7, 7);
+}
+canvas {
+  height: 100vh !important;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.296);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.song-name-container {
+  position: absolute;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  bottom: 20px;
+  right: 20px;
+
+  font-family: "Bonheur Royale", cursive; /* Use the new font */
+  font-size: 38px;
+  color: rgb(226, 197, 180);
+  text-align: left;
+}
