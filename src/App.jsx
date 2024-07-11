@@ -19,6 +19,7 @@ import germaniumSound from './assets/Sounds/Germanium.MP3';
 import margaritaSound from './assets/Sounds/Margarita.MP3';
 import topLeftFlowerSound from './assets/Sounds/Top-LeftFlower.MP3';
 
+
 import Flower from './Flower.jsx';
 
 function App() {
@@ -27,9 +28,9 @@ function App() {
 
   const flowers = [
     { model: Rosenew, sound: roseSound, song: 'Can I call you Rose? By Thee Sacred Souls', position: [0, 0, 0], sparkleColor: "rgb(120, 50, 29)" },
-    { model: Margarita_flower, sound: margaritaSound, song: "Dancin' by Aaron Smith", position: [1, 0.8, 0], sparkleColor: "rgb(255,209,255)" },
+    { model: Margarita_flower, sound: margaritaSound, song: "Dancin\' by Aaron Smith", position: [1, 0.8, 0], sparkleColor: "rgb(255,209,255)" },
     { model: Glowing_Flower, sound: chinaRoseSound, song: 'Talking to the Moon by Bruno Mars', position: [-1, -1.11, 0], sparkleColor: "rgb(170,1,30)" },
-    { model: Dry_flower, sound: topLeftFlowerSound, song: "Can't Help Falling in Love By Elvis Presley", position: [-1, 0.76, 0], sparkleColor: "rgb(255,209,255)" },
+    { model: Dry_flower, sound: topLeftFlowerSound, song: "Can\'t Help Falling in Love By Elvis Presley", position: [-1, 0.76, 0], sparkleColor: "rgb(255,209,255)" },
     { model: PurpleGermaniumflOWER, sound: germaniumSound, song: 'From The Start By Laufey', position: [1, -0.82, 0], sparkleColor: "rgb(130,81,215)" },
     { model: Flowers_antenna, sound: antennaSound, song: 'Amend By J^p^n', position: [1.8, 0, 0], sparkleColor: "rgb(253,104,87)" },
     { model: Dry_flower_New_imp, sound: bouquetSound, song: 'Pink + White by Frank Ocean', position: [-1.8, 0, 0], sparkleColor: "rgb(222,84,59)" },

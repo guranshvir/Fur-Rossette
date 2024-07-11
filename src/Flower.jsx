@@ -72,8 +72,8 @@ const Flower = ({ model: Model, sound, song, position, sparkleColor, setSongName
         <ambientLight />
         <Model />
         <mesh position={[0, 0.24, 0]}>
-          <sphereGeometry args={[0.3, 32, 32]} />
-          <meshStandardMaterial color={"black"} transparent opacity={0} />
+          <boxGeometry args={[0.5, 0.5, 0.5]} />
+          <meshStandardMaterial color={"black"} transparent opacity={0} wireframe/>
         </mesh>
       </mesh>
       <mesh position={[0, 0.24, 0]}>
