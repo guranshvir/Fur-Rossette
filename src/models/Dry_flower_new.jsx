@@ -9,7 +9,7 @@ Title: Dry flower
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import scene from "/Users/guranshvir/Documents/Rose-3D-Project/rose_vite_3d/react-3d-model/src/assets/Dry_flower_New/dry_flower.glb"
+import scene from "/Users/guranshvir/Documents/Rose-3D-Project/rose_vite_3d/react-3d-model/src/assets/Dry_flower_New/compressed.glb"
 
 export default function Model(props) {
   const { nodes, materials } = useGLTF(scene)

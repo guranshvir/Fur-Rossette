@@ -9,7 +9,7 @@ Title: piano rose new
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import scene from "/Users/guranshvir/Documents/Rose-3D-Project/rose_vite_3d/react-3d-model/src/assets/Rose/piano_rose_new.glb"
+import scene from "/Users/guranshvir/Documents/Rose-3D-Project/rose_vite_3d/react-3d-model/src/assets/Rose/compressed.glb"
 
 export default function Model(props) {
   const { nodes, materials } = useGLTF(scene)
